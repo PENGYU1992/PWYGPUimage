@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AEAFEED3F4FC5034A527D8F /* libPods-DJMTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E0C0D396FB9D202B54F55C /* libPods-DJMTest.a */; };
+		FADF2FF01DDC593300D5AC55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF2FEF1DDC593300D5AC55 /* AppDelegate.m */; };
+		FADF2FF41DDC596900D5AC55 /* HXCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF2FF31DDC596900D5AC55 /* HXCSegmentedControl.m */; };
+		FADF2FF81DDC59A100D5AC55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF2FF71DDC59A100D5AC55 /* ViewController.m */; };
+		FADF2FFB1DDC5C1600D5AC55 /* SubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF2FFA1DDC5C1600D5AC55 /* SubVC.m */; };
+		FADF30091DDD4D2300D5AC55 /* GPUFillStretchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF30081DDD4D2300D5AC55 /* GPUFillStretchVC.m */; };
+		FADF300C1DDD4D3E00D5AC55 /* GPUAspectRatioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF300B1DDD4D3E00D5AC55 /* GPUAspectRatioVC.m */; };
+		FADF300F1DDD4D5B00D5AC55 /* GPURatioAndFillVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF300E1DDD4D5B00D5AC55 /* GPURatioAndFillVC.m */; };
+		FADF30121DDD516800D5AC55 /* CameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF30111DDD516800D5AC55 /* CameraVC.m */; };
+		FADF30171DDECA2D00D5AC55 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = FADF30161DDECA2D00D5AC55 /* text.png */; };
 		FEA38EC01DDC455F0086F60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA38EBF1DDC455F0086F60B /* main.m */; };
-		FEA38EC31DDC455F0086F60B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA38EC21DDC455F0086F60B /* AppDelegate.m */; };
-		FEA38EC61DDC455F0086F60B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA38EC51DDC455F0086F60B /* ViewController.m */; };
 		FEA38EC91DDC455F0086F60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA38EC71DDC455F0086F60B /* Main.storyboard */; };
 		FEA38ECC1DDC455F0086F60B /* DJMTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA38ECA1DDC455F0086F60B /* DJMTest.xcdatamodeld */; };
 		FEA38ECE1DDC455F0086F60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA38ECD1DDC455F0086F60B /* Assets.xcassets */; };
@@ -17,12 +25,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08E0C0D396FB9D202B54F55C /* libPods-DJMTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJMTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251527C648516CBDFFFE073C /* Pods-DJMTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJMTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJMTest/Pods-DJMTest.debug.xcconfig"; sourceTree = "<group>"; };
+		444CD6823B75B241D1CDE8A2 /* Pods-DJMTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJMTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJMTest/Pods-DJMTest.release.xcconfig"; sourceTree = "<group>"; };
+		FADF2FEE1DDC593300D5AC55 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADF2FEF1DDC593300D5AC55 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADF2FF21DDC596900D5AC55 /* HXCSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCSegmentedControl.h; sourceTree = "<group>"; };
+		FADF2FF31DDC596900D5AC55 /* HXCSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCSegmentedControl.m; sourceTree = "<group>"; };
+		FADF2FF61DDC59A100D5AC55 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADF2FF71DDC59A100D5AC55 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADF2FF91DDC5C1600D5AC55 /* SubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubVC.h; sourceTree = "<group>"; };
+		FADF2FFA1DDC5C1600D5AC55 /* SubVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubVC.m; sourceTree = "<group>"; };
+		FADF30071DDD4D2300D5AC55 /* GPUFillStretchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUFillStretchVC.h; sourceTree = "<group>"; };
+		FADF30081DDD4D2300D5AC55 /* GPUFillStretchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUFillStretchVC.m; sourceTree = "<group>"; };
+		FADF300A1DDD4D3E00D5AC55 /* GPUAspectRatioVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUAspectRatioVC.h; sourceTree = "<group>"; };
+		FADF300B1DDD4D3E00D5AC55 /* GPUAspectRatioVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUAspectRatioVC.m; sourceTree = "<group>"; };
+		FADF300D1DDD4D5B00D5AC55 /* GPURatioAndFillVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPURatioAndFillVC.h; sourceTree = "<group>"; };
+		FADF300E1DDD4D5B00D5AC55 /* GPURatioAndFillVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPURatioAndFillVC.m; sourceTree = "<group>"; };
+		FADF30101DDD516800D5AC55 /* CameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraVC.h; sourceTree = "<group>"; };
+		FADF30111DDD516800D5AC55 /* CameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraVC.m; sourceTree = "<group>"; };
+		FADF30161DDECA2D00D5AC55 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
 		FEA38EBB1DDC455F0086F60B /* DJMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA38EBF1DDC455F0086F60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FEA38EC11DDC455F0086F60B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FEA38EC21DDC455F0086F60B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEA38EC41DDC455F0086F60B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEA38EC51DDC455F0086F60B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FEA38EC81DDC455F0086F60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEA38ECB1DDC455F0086F60B /* DJMTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DJMTest.xcdatamodel; sourceTree = "<group>"; };
 		FEA38ECD1DDC455F0086F60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,17 +59,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEAFEED3F4FC5034A527D8F /* libPods-DJMTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92EFE8604B780BDAF0DF6A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08E0C0D396FB9D202B54F55C /* libPods-DJMTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1353D1F3D3E97C15025399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				251527C648516CBDFFFE073C /* Pods-DJMTest.debug.xcconfig */,
+				444CD6823B75B241D1CDE8A2 /* Pods-DJMTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FADF2FED1DDC593300D5AC55 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FADF2FEE1DDC593300D5AC55 /* AppDelegate.h */,
+				FADF2FEF1DDC593300D5AC55 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FADF2FF11DDC596900D5AC55 /* HXCSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				FADF2FF21DDC596900D5AC55 /* HXCSegmentedControl.h */,
+				FADF2FF31DDC596900D5AC55 /* HXCSegmentedControl.m */,
+			);
+			path = HXCSegmentControl;
+			sourceTree = "<group>";
+		};
+		FADF2FF51DDC59A100D5AC55 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FADF2FFD1DDD4C4200D5AC55 /* ChildController */,
+				FADF2FF61DDC59A100D5AC55 /* ViewController.h */,
+				FADF2FF71DDC59A100D5AC55 /* ViewController.m */,
+				FADF2FF91DDC5C1600D5AC55 /* SubVC.h */,
+				FADF2FFA1DDC5C1600D5AC55 /* SubVC.m */,
+				FADF30101DDD516800D5AC55 /* CameraVC.h */,
+				FADF30111DDD516800D5AC55 /* CameraVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FADF2FFD1DDD4C4200D5AC55 /* ChildController */ = {
+			isa = PBXGroup;
+			children = (
+				FADF30161DDECA2D00D5AC55 /* text.png */,
+				FADF30071DDD4D2300D5AC55 /* GPUFillStretchVC.h */,
+				FADF30081DDD4D2300D5AC55 /* GPUFillStretchVC.m */,
+				FADF300A1DDD4D3E00D5AC55 /* GPUAspectRatioVC.h */,
+				FADF300B1DDD4D3E00D5AC55 /* GPUAspectRatioVC.m */,
+				FADF300D1DDD4D5B00D5AC55 /* GPURatioAndFillVC.h */,
+				FADF300E1DDD4D5B00D5AC55 /* GPURatioAndFillVC.m */,
+			);
+			path = ChildController;
+			sourceTree = "<group>";
+		};
 		FEA38EB21DDC455F0086F60B = {
 			isa = PBXGroup;
 			children = (
 				FEA38EBD1DDC455F0086F60B /* DJMTest */,
 				FEA38EBC1DDC455F0086F60B /* Products */,
+				BF1353D1F3D3E97C15025399 /* Pods */,
+				92EFE8604B780BDAF0DF6A89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +150,9 @@
 		FEA38EBD1DDC455F0086F60B /* DJMTest */ = {
 			isa = PBXGroup;
 			children = (
-				FEA38EC11DDC455F0086F60B /* AppDelegate.h */,
-				FEA38EC21DDC455F0086F60B /* AppDelegate.m */,
-				FEA38EC41DDC455F0086F60B /* ViewController.h */,
-				FEA38EC51DDC455F0086F60B /* ViewController.m */,
-				FEA38EC71DDC455F0086F60B /* Main.storyboard */,
-				FEA38ECD1DDC455F0086F60B /* Assets.xcassets */,
-				FEA38ECF1DDC455F0086F60B /* LaunchScreen.storyboard */,
-				FEA38ED21DDC455F0086F60B /* Info.plist */,
-				FEA38ECA1DDC455F0086F60B /* DJMTest.xcdatamodeld */,
+				FADF2FED1DDC593300D5AC55 /* AppDelegate */,
+				FADF2FF51DDC59A100D5AC55 /* ViewController */,
+				FADF2FF11DDC596900D5AC55 /* HXCSegmentControl */,
 				FEA38EBE1DDC455F0086F60B /* Supporting Files */,
 			);
 			path = DJMTest;
@@ -77,6 +161,11 @@
 		FEA38EBE1DDC455F0086F60B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FEA38EC71DDC455F0086F60B /* Main.storyboard */,
+				FEA38ECD1DDC455F0086F60B /* Assets.xcassets */,
+				FEA38ECF1DDC455F0086F60B /* LaunchScreen.storyboard */,
+				FEA38ED21DDC455F0086F60B /* Info.plist */,
+				FEA38ECA1DDC455F0086F60B /* DJMTest.xcdatamodeld */,
 				FEA38EBF1DDC455F0086F60B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -89,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEA38ED51DDC455F0086F60B /* Build configuration list for PBXNativeTarget "DJMTest" */;
 			buildPhases = (
+				6D75BAE539D9CCB10454724D /* [CP] Check Pods Manifest.lock */,
 				FEA38EB71DDC455F0086F60B /* Sources */,
 				FEA38EB81DDC455F0086F60B /* Frameworks */,
 				FEA38EB91DDC455F0086F60B /* Resources */,
+				4227082AFE718604A079FD58 /* [CP] Embed Pods Frameworks */,
+				4E25FB0317121FDB1723A11B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -113,6 +205,7 @@
 				TargetAttributes = {
 					FEA38EBA1DDC455F0086F60B = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6K99G39H2S;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADF30171DDECA2D00D5AC55 /* text.png in Resources */,
 				FEA38ED11DDC455F0086F60B /* LaunchScreen.storyboard in Resources */,
 				FEA38ECE1DDC455F0086F60B /* Assets.xcassets in Resources */,
 				FEA38EC91DDC455F0086F60B /* Main.storyboard in Resources */,
@@ -148,15 +242,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4227082AFE718604A079FD58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJMTest/Pods-DJMTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E25FB0317121FDB1723A11B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJMTest/Pods-DJMTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D75BAE539D9CCB10454724D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEA38EB71DDC455F0086F60B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA38EC61DDC455F0086F60B /* ViewController.m in Sources */,
-				FEA38EC31DDC455F0086F60B /* AppDelegate.m in Sources */,
 				FEA38EC01DDC455F0086F60B /* main.m in Sources */,
+				FADF300C1DDD4D3E00D5AC55 /* GPUAspectRatioVC.m in Sources */,
+				FADF300F1DDD4D5B00D5AC55 /* GPURatioAndFillVC.m in Sources */,
 				FEA38ECC1DDC455F0086F60B /* DJMTest.xcdatamodeld in Sources */,
+				FADF2FF01DDC593300D5AC55 /* AppDelegate.m in Sources */,
+				FADF2FFB1DDC5C1600D5AC55 /* SubVC.m in Sources */,
+				FADF2FF41DDC596900D5AC55 /* HXCSegmentedControl.m in Sources */,
+				FADF30121DDD516800D5AC55 /* CameraVC.m in Sources */,
+				FADF30091DDD4D2300D5AC55 /* GPUFillStretchVC.m in Sources */,
+				FADF2FF81DDC59A100D5AC55 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,23 +422,31 @@
 		};
 		FEA38ED61DDC455F0086F60B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251527C648516CBDFFFE073C /* Pods-DJMTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6K99G39H2S;
 				INFOPLIST_FILE = DJMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DJBeauty.DJMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FEA38ED71DDC455F0086F60B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444CD6823B75B241D1CDE8A2 /* Pods-DJMTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6K99G39H2S;
 				INFOPLIST_FILE = DJMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DJBeauty.DJMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -313,6 +469,7 @@
 				FEA38ED71DDC455F0086F60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

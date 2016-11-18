@@ -1,0 +1,15 @@
+PODS:
+  - GPUImage (0.1.7)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - GPUImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: d88c284db974e9f0db5b762b8c17ef8b605e891d
+
+COCOAPODS: 1.0.1
